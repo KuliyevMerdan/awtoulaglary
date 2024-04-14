@@ -1,0 +1,181 @@
+* {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.toggle-menu {
+    margin-top: 25px;
+}
+
+.top-header {
+    background-color: white;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    color: black;
+}
+
+.right-header .social-icons li a {
+    color: black;
+    background-color: black;
+}
+
+.main-slider {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.cards {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    position: relative;
+    background-color: rgb(242, 242, 242);
+    border-radius: 20px;
+    width: 49%;
+    min-height: 300px;
+    overflow: hidden;
+}
+
+.card .left {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    width: 50%;
+    line-height: 35px;
+    font-size: 2vw;
+    font-weight: 600;
+    color: black;
+}
+
+.card .right {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    width: 50%;
+    line-height: 35px;
+    font-size: 2vw;
+    font-weight: 600;
+    color: black;
+}
+
+@media only screen and (max-width: 500px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .card .left {
+        line-height: 25px;
+        font-size: 7vw;
+    }
+    .card .right {
+        line-height: 25px;
+        font-size: 7vw;
+    }
+}
+
+.card .left-image {
+    position: absolute;
+    width: 60%;
+    right: 0;
+    bottom: 0;
+}
+
+.card .right-image {
+    position: absolute;
+    width: 60%;
+    right: 0;
+    bottom: 0;
+}
+
+footer {
+    border-top: 1px solid rgb(230, 230, 230);
+    background-color: #ffffff;
+    color: black;
+    padding: 40px 0;
+}
+
+footer .container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+footer .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .col-md-4 {
+    flex: 0 0 33.33%;
+    padding: 0 15px;
+}
+
+footer img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+footer h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #00ff73;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer ul li a:hover {
+    color: #00a8c5;
+}
+
+@media (max-width: 768px) {
+    footer .col-md-4 {
+        flex: 0 0 100%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .main-slider {
+        margin-top: none
+    }
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
