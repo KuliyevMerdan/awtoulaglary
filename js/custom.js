@@ -18,13 +18,6 @@ jQuery(document).ready(function($){
 /*------------------------------------------------------------------------*/
 
 
-	/************** Single Page Nav Plugin *********************/
-	$('.menu').singlePageNav(
-		{filter: ':not(.external)'}
-	);
-
-
-
 
 	/************** FlexSlider Plugin *********************/
 	$('.flexslider').flexslider({
@@ -73,9 +66,19 @@ jQuery(document).ready(function($){
         $('.responsive-menu .menu').hide();
     });
 
-
-
-
-
-
 });
+
+const zakaz = document.querySelector('.zakaz-et');
+const popup = document.querySelector('.popup')
+
+const inputlar = document.querySelectorAll('input')
+
+zakaz.addEventListener('click', () => {
+	inputlar.forEach(input => {
+		input.value = ''
+    })
+    popup.classList.add('active')
+	setTimeout(() => {
+		popup.classList.remove('active')
+	}, 5000)
+})

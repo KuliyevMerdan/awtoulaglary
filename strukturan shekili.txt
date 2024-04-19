@@ -2,10 +2,6 @@
     font-family: 'Times New Roman', Times, serif
 }
 
-.knopka {
-    border: 1px solid gray;
-}
-
 .toggle-menu {
     margin-top: 25px;
 }
@@ -183,51 +179,3 @@ footer ul li a:hover {
 .menu ul li {
     margin-bottom: 10px;
 }
-
-.zakaz-header {
-    font-size: 40px ;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    line-height: 40px;
-}
-
-.contact-form {
-    width: 100%;
-    padding: 10px;
-    height: 750px;
-    padding-top: 50px;
-    position: relative;
-}
-
-@media only screen and (max-width: 500px) {
-    .contact-form {
-    margin-top: 0;
-    }
-
-    footer .col-md-4 {
-        flex: 0 0 100%;
-    }
-}
-
-.zakaz-et {
-    position: absolute;
-    margin-top: 20px;
-    right: 0;
-}
-
-.popup.active {
-    font-size: 26px;
-    font-weight: bold;
-    margin-top: 80px;
-    height: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 1s all ease;
-}
-
-.popup {
-    display: none;
-    transition: 1s all ease;
-} 
