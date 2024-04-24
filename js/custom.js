@@ -82,3 +82,5 @@ zakaz.addEventListener('click', () => {
 		popup.classList.remove('active')
 	}, 5000)
 })
+
+const login = document.querySelector('.ulgam')

@@ -200,6 +200,21 @@ footer ul li a:hover {
     position: relative;
 }
 
+.login {
+    width: 50%;
+    padding: 10px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    position: relative;
+}
+
+.ulgam {
+    margin-top: 20px;
+}
 @media only screen and (max-width: 500px) {
     .contact-form {
     margin-top: 0;
@@ -231,3 +246,15 @@ footer ul li a:hover {
     display: none;
     transition: 1s all ease;
 } 
+
+a {
+    text-decoration: none;
+}
+
+li:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #b4f4ff;
+    color: white;
+    transition: .5s all ease;
+}
